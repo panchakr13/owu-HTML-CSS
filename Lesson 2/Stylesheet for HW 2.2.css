@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+.flex{
+    height: 300px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FirstBlock, .SecondBlock, .ThirdBlock, .FourthBlock, .FifthBlock, .SixthBlock{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+
+.FirstBlock:hover, .SecondBlock:hover, .ThirdBlock:hover, .FourthBlock:hover, .FifthBlock:hover, .SixthBlock:hover{
+    border-radius: 50%;
+    background-color: gray;
+    transition: 300ms;
+}

@@ -1,0 +1,44 @@
+.DancingScriptFont{
+    font-family: 'Dancing Script', cursive;
+}
+.FjallaOneFont{
+    font-family: 'Fjalla One', sans-serif;
+}
+.IndieFlowerFont{
+    font-family: 'Indie Flower', cursive;
+}
+.RubikPixelsFont{
+    font-family: 'Rubik Pixels', system-ui;
+}
+.SedgwickAveFont{
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+.flex{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.FirstFont, .SecondFont, .ThirdFont, .FourthFont, .FifthFont{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
