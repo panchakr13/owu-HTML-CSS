@@ -1,0 +1,43 @@
+.flex{
+    margin: auto;
+    margin-top: 7%;
+    height: 450px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+.Box{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+span, h2, h3{
+    font-family: Arial, sans-serif;
+}
+.HeaderText, .MiddleText, .FooterText{
+    margin-left: 30px;
+}
+.MiddleText{
+    margin-top: -40px;
+}
+
+.FooterText{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+    padding-block: 1px;
+    padding-inline: 25px;
+    text-decoration: underline;
+}
+
