@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma</title>
+    <style>
+        body{
+            margin:0;
+            font-size: 1.5em;
+            color: white;
+        }
+        header{
+            height: 20vh;
+            background: #8D8484;
+            color: black;
+        }
+
+        footer{
+            height: 20vh;
+            background: #BDBDBD;
+            color: black;
+        }
+        article{
+            width: 75vw;
+            height: 20vh;
+        }
+        aside{
+            width: 25vw;
+            height: 30vh;
+        }
+        .main{
+            display: flex;
+        }
+        header, footer, article, aside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="main">
+        <main>
+            <article style="background: #776969;;">Content-1</article>
+            <article style="background: #643030;">Content-2</article>
+            <article style="background: #441818;">Content-2</article>
+        </main>
+        <div class="right-side">
+            <aside style="background: #937575;">spam-1</aside>
+            <aside style="background: #644C4C;">spam-2</aside>
+        </div>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>

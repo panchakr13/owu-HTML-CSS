@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin:30px;
+        }
+        section{
+            display: flex;
+            align-items: center;
+        }
+        #first{
+            height: 100vh;
+            background-color: indianred;
+        }
+        #second{
+            height: 100vh;
+            background-color: cornflowerblue;
+        }
+        #third{
+            height: 100vh;
+            background-color: darkseagreen;
+        }
+        section main a{
+            text-decoration-line: none;
+            font-size: 4em;
+            color: black;
+        }
+        p{
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .first-p{
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <section id="first">
+        <main>
+            <h1>Section Title</h1>
+            <p class="first-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eligendi illo molestias nostrum, saepe soluta tempora voluptatum? Corporis eius eum exercitationem iure magnam quas. Adipisci dolore eaque, hic illo laborum modi necessitatibus nostrum, quaerat quod, tenetur veritatis vero. Aperiam autem corporis dolorem ipsam laboriosam minus necessitatibus odit, officiis perferendis placeat quo repudiandae sapiente sed sint voluptatibus. Commodi eveniet impedit itaque laboriosam officia quisquam reiciendis. Atque consequuntur earum fuga numquam sed!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores at commodi cupiditate debitis deleniti deserunt distinctio ea eligendi fuga fugit illo inventore ipsum iusto laboriosam magnam maiores modi nostrum possimus, quae quaerat quo ratione repellendus rerum veritatis? Accusamus blanditiis debitis ducimus et ipsa iure, modi necessitatibus nulla perspiciatis quos repellendus rerum saepe totam ullam ut voluptas voluptatum. Debitis dolore ducimus est ex impedit ipsam itaque maiores mollitia numquam pariatur.</p>
+            <a href="#second">&#8595;</a>
+        </main>
+    </section>
+    <section id="second">
+        <main>
+            <a href="#first">&#8593;</a>
+            <h1>Section Title</h1>
+            <p class="first-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquid deserunt dignissimos facilis fuga fugit iste laboriosam magnam minus obcaecati officia quas quibusdam reiciendis repellat repellendus tenetur velit vitae, voluptas voluptates? A, aliquid amet architecto asperiores blanditiis cupiditate deserunt dicta dolorem ducimus est impedit ipsa itaque laudantium magni modi molestiae obcaecati optio pariatur placeat provident quaerat qui quibusdam quod quos reprehenderit repudiandae soluta vitae. Atque blanditiis ipsum quisquam sed.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores aut autem consectetur culpa cupiditate delectus dolor dolores dolorum earum enim eos fuga, inventore ipsam iste molestias neque nostrum odio odit quas quia quidem quis quisquam quos recusandae tempore vero voluptatibus. Accusamus architecto aspernatur atque aut consequuntur delectus eligendi est exercitationem facere ipsam laborum libero, officiis perferendis placeat porro quam rem repellat reprehenderit sunt tenetur vel veniam veritatis voluptas voluptatem!</p>
+            <a href="#third">&#8595;</a>
+        </main>
+    </section>
+    <section id="third">
+        <main>
+        <a href="#second">&#8593;</a>
+        <h1>Section Title</h1>
+        <p class="first-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, fuga iure optio rerum sequi veritatis vero voluptatibus! Accusamus consequatur deserunt laudantium, minima nam, obcaecati perferendis praesentium quae quaerat quas, similique velit. Asperiores cumque fugiat minima repellendus suscipit! Eveniet laboriosam mollitia necessitatibus omnis praesentium quaerat repellat vero? Ad aliquam aperiam consectetur error ex hic libero maxime quo suscipit tempore. Aliquid architecto aspernatur ipsum itaque labore quibusdam quis, similique temporibus ullam voluptatibus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam, atque consectetur dolore eum, eveniet facere hic id illo laboriosam molestias nulla, possimus quo. A adipisci aliquam, animi aperiam asperiores beatae culpa cupiditate delectus deleniti eos explicabo fugiat hic illum ipsum iure magnam necessitatibus odio perferendis porro praesentium quaerat repellendus rerum vel? Amet aperiam assumenda beatae enim ex id in unde veniam veritatis. Dignissimos nam sed sequi similique temporibus velit?</p>
+        </main>
+    </section>
+</body>
+</html>
