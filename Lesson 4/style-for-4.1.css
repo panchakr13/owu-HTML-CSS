@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
+.first-page{
+    background-image: url("img-for-first.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    background-image: url("img-for-first-div.png");
+    background-size: cover;
+    display: flex;
+
+
+}
+
+.text{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-page h2{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: KoHo;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.first-page p{
+    color: #000;
+    font-family: KoHo;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.first-page .text button{
+    width: 77%;
+    height: 19%;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.second-page{
+    background-image: url("bgc-for-second.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-page p{
+    margin-top: 110px;
+    width: 949px;
+    height: 183px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.third-page{
+    background-image: url("bg-for-third-page.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-page main{
+    width: 96.5vw;
+    height: 68vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-for-third{
+    background: rgba(83, 83, 83, 0.40);
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-for-third img{
+    width: 408.6px;
+    height: 214px;
+    flex-shrink: 0;
+}
+
+
+.div-for-third p{
+    color: #000;
+    font-family: KoHo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.div-for-third button{
+    width: 90%;
+    height: 11%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: KoHo;
+    font-size: 35px;
+    font-weight: 400;
+}

@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30vw;
+    border: 1px solid silver;
+}
+
+input[type="text"]{
+    margin-bottom: -2vw;
+    width: 23vw;
+    height: 5vh;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background-color: rgba(214,214,214,0.2);
+    font-size: 1em;
+}
+
+input[type="password"]{
+    margin-bottom: -1vw;
+    width: 23vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background-color: rgba(214,214,214,0.2);
+    font-size: 1em;
+}
+
+.footer{
+    width: 30vw;
+    height: 7vh;
+    border: 1px solid silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: midnightblue;
+
+}
+
+img{
+    height: 10vh;
+    width: 16vw;
+}
+
+form{
+    width:25vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: #00b6ff;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    width: 23.5vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 1.1em;
+    color: dimgrey;
+;
+}
+
+.footer span{
+    font-size: 1.25em;
+}
+
+.icon-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
