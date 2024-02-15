@@ -1,0 +1,17 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    section{
+        grid-template-areas:
+                    "A A A"
+                    "B B B"
+                    "C D E"
+                    "F F F";
+        grid-template-rows: 1fr 3fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5vh;
+    }
+
+        header, main, .first, .second, .third, aside{
+            font-size: 7em;
+            border-radius: 10px;
+        }
+}
