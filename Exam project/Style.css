@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    background: #19191B;
+}
+
+/*-----FIRST PAGE-----*/
+
+#first-page{
+    width: 100vw;
+    height: 93.36vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+}
+
+#first-page>header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.for-svg{
+    width: 8.6vw;
+    height: 40px;
+    display: flex;
+
+}
+.for-svg>img{
+    width: 40px;
+    height: 40px;
+    background: url(Enver-logo.svg), lightgray 50% / cover no-repeat;
+    margin-right: 8px;
+}
+
+.for-svg>span{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+}
+
+.a-links{
+    width: 27.6vw;
+    height: 22px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.a-links>:first-child{
+    color: #5454D4;
+    text-align: right;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.a-links>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#first-page>header>button{
+    width: 157px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    background: none;
+}
+#first-page>header>button>span{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+#first-page>.main>main{
+    width: 40.39vw;
+    height: 501px;
+    margin-left: 8.3vw;
+    margin-top: 149px;
+}
+
+#first-page>.main>main>h1{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px; /* 105% */
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+#first-page>.main>main>span{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+}
+
+#first-page>.main>aside{
+    width: 45.5vw;
+    height: 713px;
+    margin-right: 3.68vw;
+}
+
+#first-page>.main{
+    display: flex;
+}
+
+#first-page>.main>main>button{
+    width: 14.2vw;
+    height: 58px;
+    border-radius: 4px;
+    background: #5454D4;
+    margin-top: 50px;
+}
+
+#first-page>.main>main>button>span{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*-----SECOND PAGE-----*/
+#second-page{
+    width: 100vw;
+    height: 87.3vh;
+}
+
+#second-page>header{
+    display: flex;
+    margin-bottom: 21px;
+}
+
+#second-page>header>span{
+    width: 33vw;
+    height: 140px;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+    margin-left: 8.8vw;
+    margin-right: 5vw;
+}
+
+#second-page>header>p{
+    width: 35vw;
+    height: 78px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+    margin-right: 7.8vw;
+    margin-top: 0;
+}
+
+#second-page>main{
+    width: 83.3vw;
+    height: 65.43vh;
+    margin-left: 8.8vw;
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+/*-----THIRD PAGE-----*/
+#third-page{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    overflow: hidden;
+}
+
+#third-page>header{
+    width: 100vw;
+    height: 140px;
+    margin-top: 137px;
+    /*position: relative;*/
+    /*top: 137px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third-page>header>span{
+    width: 43vw;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; /* 116.667% */
+}
+
+#third-page>main{
+    width: 77.43vw;
+    height: 527px;
+    margin-left: 11.25vw;
+    margin-right: 11.32vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 98px;
+}
+
+#third-page>main>div{
+    width: 20.76vw;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.for-icon{
+    width: 69px;
+    height: 69px;
+    background: rgba(84, 84, 212, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third-page>main>div>span{
+    width: 13.82vw;
+    height: 34px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+}
+
+#third-page>main>div>p{
+    width: 17.5vw;
+    height: 56px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+/*-----FOURTH PAGE-----*/
+
+#fourth-page{
+    width: 100vw;
+    height: 84.86vh;
+    overflow: hidden;
+}
+
+#fourth-page>header{
+    width: 45vw;
+    height: 70px;
+    margin-top: 77px;
+    margin-left: 8.3vw;
+}
+
+#fourth-page>header>span{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#fourth-page>main{
+    width: 83vw;
+    height: 301px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.3vw;
+    margin-top: 161px;
+}
+
+#fourth-page>main>div{
+    width: 26.6vw;
+    height: 301px;
+    border-radius: 14px;
+    background: #1E1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fourth-page>main>div>img{
+    width: 23.3vw;
+    height: 253px;
+    border-radius: 12px;
+}
+
+/*-----SECTION FIVE-----*/
+
+#five-section{
+    width: 100vw;
+    height: 49.41vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(30, 30, 32, 0.50);
+
+}
+
+#five-section>main{
+    width: 83.3vw;
+    height: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#five-section>main>span{
+    width: 54vw;
+    height: 144px;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#five-section>main>button{
+    width: 13.96vw;
+    height: 60px;
+    border-radius: 5px;
+    background: #5454D4;
+}
+
+#five-section>main>button>span{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/*-----FOOTER-----*/
+
+footer{
+    width: 100vw;
+    height: 18.5vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+footer>div{
+    width: 80.6vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 51px;
+}
+
+footer>div>div{
+    width: 9.17vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer>div>div>span{
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+}
+
+footer>div>aside{
+    width: 19.8vw;
+    height: 38px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 237.5% */
+    letter-spacing: -0.5px;
+}
+
+
+
